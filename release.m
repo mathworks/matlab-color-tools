@@ -72,7 +72,7 @@ try
     end
     
     oldMltbx = fullfile( currentDir, [tbxname '.mltbx'] );
-    newMltbx = fullfile( fileparts( tbxDir ), 'releases', [tbxname ' v' v.Version '.mltbx'] );
+    newMltbx = fullfile( fileparts( tbxDir ), 'releases', [tbxname ' (v' v.Version ').mltbx'] );
     movefile( oldMltbx, newMltbx )
     
     fprintf( 1, ' Done.\n' );
