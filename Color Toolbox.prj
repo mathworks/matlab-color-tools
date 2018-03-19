@@ -41,7 +41,9 @@
     <param.registered.apps />
     <param.docs>${PROJECT_ROOT}/tbx/doc/info.xml</param.docs>
     <param.getting.started.guide />
-    <param.matlabpath.excludes />
+    <param.matlabpath.excludes>
+      <item>/</item>
+    </param.matlabpath.excludes>
     <param.javaclasspath.excludes />
     <param.exported.on.package>false</param.exported.on.package>
     <param.release.start />
@@ -64,7 +66,6 @@
       <param.apps />
       <param.registered.apps />
       <param.getting.started.guide />
-      <param.matlabpath.excludes />
       <param.javaclasspath.excludes />
       <param.exported.on.package />
       <param.release.start />
