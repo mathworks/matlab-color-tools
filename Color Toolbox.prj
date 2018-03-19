@@ -1,12 +1,12 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration file="/Users/eddins/OneDrive - MathWorks/GitRepos/color-toolbox/Color Toolbox.prj" location="/Users/eddins/OneDrive - MathWorks/GitRepos/color-toolbox" name="Color Toolbox" target="target.toolbox" target-name="Package Toolbox">
+  <configuration build-checksum="1004508102" file="/Users/eddins/OneDrive - MathWorks/GitRepos/color-toolbox/Color Toolbox.prj" location="/Users/eddins/OneDrive - MathWorks/GitRepos/color-toolbox" name="Color Toolbox" target="target.toolbox" target-name="Package Toolbox">
     <param.appname>Color Toolbox</param.appname>
     <param.authnamewatermark>Steve Eddins</param.authnamewatermark>
     <param.email>Steve.Eddins@mathworks.com</param.email>
     <param.company>MathWorks</param.company>
     <param.summary>Color computations for use with MATLAB and Image Processing Toolbox</param.summary>
     <param.description />
-    <param.screenshot>${PROJECT_ROOT}/image/mltoolbox.png</param.screenshot>
+    <param.screenshot>${PROJECT_ROOT}/misc/color-toolbox-image.png</param.screenshot>
     <param.version>0.1</param.version>
     <param.output>${PROJECT_ROOT}/Color Toolbox.mltbx</param.output>
     <param.products.name />
@@ -40,12 +40,12 @@
     <param.apps />
     <param.registered.apps />
     <param.docs>${PROJECT_ROOT}/tbx/doc/info.xml</param.docs>
-    <param.getting.started.guide />
+    <param.getting.started.guide>${PROJECT_ROOT}/tbx/doc/GettingStarted.mlx</param.getting.started.guide>
     <param.matlabpath.excludes>
       <item>/</item>
     </param.matlabpath.excludes>
     <param.javaclasspath.excludes />
-    <param.exported.on.package>false</param.exported.on.package>
+    <param.exported.on.package>true</param.exported.on.package>
     <param.release.start />
     <param.release.end />
     <param.release.current.only>false</param.release.current.only>
@@ -65,9 +65,7 @@
       <param.demosxml />
       <param.apps />
       <param.registered.apps />
-      <param.getting.started.guide />
       <param.javaclasspath.excludes />
-      <param.exported.on.package />
       <param.release.start />
       <param.release.end />
       <param.release.current.only />
