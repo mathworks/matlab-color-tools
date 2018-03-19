@@ -1,5 +1,5 @@
 % Color Toolbox
-% Version 1.0 (R2017a) 13-Sep-2017
+% Version 0.1 (R2018a) 19-Mar-2018
 %
 % Classes
 %   myClass  - Perform simple arithmetics.
@@ -7,4 +7,4 @@
 % Functions
 %   myfunc   - Multiply input by 2.
 %
-%  Copyright 2017 The MathWorks, Inc.
+%  Copyright 2017-2018 The MathWorks, Inc.
