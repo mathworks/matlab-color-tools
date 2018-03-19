@@ -5,7 +5,7 @@
     <param.email>Steve.Eddins@mathworks.com</param.email>
     <param.company>MathWorks</param.company>
     <param.summary>Color computations for use with MATLAB and Image Processing Toolbox</param.summary>
-    <param.description />
+    <param.description>The Color Toolbox is an experimental collection of color science functions for use with MATLAB and Image Processing Toolbox. It is not yet in a stable state.</param.description>
     <param.screenshot>${PROJECT_ROOT}/misc/color-toolbox-image.png</param.screenshot>
     <param.version>0.1</param.version>
     <param.output>${PROJECT_ROOT}/Color Toolbox.mltbx</param.output>
@@ -54,7 +54,6 @@
     <param.compatiblity.linux>true</param.compatiblity.linux>
     <param.compatiblity.matlabonline>true</param.compatiblity.matlabonline>
     <unset>
-      <param.description />
       <param.output />
       <param.products.name />
       <param.products.id />

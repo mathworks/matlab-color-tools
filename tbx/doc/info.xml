@@ -1,8 +1,8 @@
 <productinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="optional">
 <?xml-stylesheet type="text/xsl"href="optional"?>
-<!-- Copyright 2017 The MathWorks, Inc. -->
+<!-- Copyright 2017-2018 The MathWorks, Inc. -->
 
-<matlabrelease>R2017a</matlabrelease>
+<matlabrelease>R2018a</matlabrelease>
 <name>Color Toolbox</name>
 <type>toolbox</type>
 <icon></icon>

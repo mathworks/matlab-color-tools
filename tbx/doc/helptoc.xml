@@ -2,17 +2,8 @@
 
 <toc version="2.0">
     <tocitem target="toolbox_overview.html"> Color Toolbox
-        <tocitem target="getting_started.html" image="HelpIcon.GETTING_STARTED">
+        <tocitem target="html/GettingStarted.html" image="HelpIcon.GETTING_STARTED">
             Getting Started
-        </tocitem>
-        <tocitem target="classes.html" image="HelpIcon.CLASS">
-            Classes
-        </tocitem>
-        <tocitem target="functions.html" image="HelpIcon.FUNCTION">
-            Functions
-        </tocitem>
-        <tocitem target="examples.html" image="HelpIcon.EXAMPLES">
-            Examples
         </tocitem>
     </tocitem>
 </toc>
