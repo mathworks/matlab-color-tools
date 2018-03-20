@@ -71,8 +71,12 @@ try
         matlab.addons.toolbox.packageToolbox( prj );
     end
     
+    releasesFolder = fullfile(fileparts(tbxDir),'releases');
+    if ~exist(releasesFolder,'dir')
+        mkdir(releasesFolder);
+    end
     oldMltbx = fullfile( currentDir, [tbxname '.mltbx'] );
-    newMltbx = fullfile( fileparts( tbxDir ), 'releases', [tbxname ' (v' v.Version ').mltbx'] );
+    newMltbx = fullfile( releasesFolder, [tbxname ' (v' v.Version ').mltbx'] );
     movefile( oldMltbx, newMltbx )
     
     fprintf( 1, ' Done.\n' );
