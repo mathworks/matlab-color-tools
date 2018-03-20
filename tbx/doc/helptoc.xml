@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding="utf-8"?>
 
 <toc version="2.0">
-    <tocitem target="toolbox_overview.html"> Color Toolbox
-        <tocitem target="html/GettingStarted.html" image="HelpIcon.GETTING_STARTED">
-            Getting Started
-        </tocitem>
+    <tocitem target="getting_started.html" image="HelpIcon.GETTING_STARTED">
+        Getting Started
     </tocitem>
 </toc>
