@@ -1,4 +1,42 @@
 function out = xyz2ciecam02(XYZ,XYZ_w,L_A,Y_b,surround)
+%xyz2ciecam02 Convert XYZ values to CIECAM02.
+%
+%   out = xyz2ciecam02(XYZ,XYZ_w,L_A,Y_b,surround) converts the Mx3
+%   matrix of CIE XYZ values to a table of CIECAM02 values. XYZ is
+%   assumed to contain CIE 1931 Standard Colorimetric Observer (2
+%   degree) values in the range [0.0,1.0].
+%
+%   XYZ_w is a three-element vector containing the CIE XYZ values
+%   for the adopted white point.
+%
+%   L_A is the adapting luminance (in cd/m^2).
+%
+%   Y_b is the relative background luminance (in the range
+%   [0.0,1.0].
+%
+%   surround is either 'average' (the typical relative luminance for
+%   viewing reflection prints), 'dim' (the typical relative
+%   luminance for CRT displays or televisions), or 'dark' (the
+%   typical relative luminance for projected transparencies).
+%
+%   REFERENCE
+%
+%   Mark D. Fairchild, Color Appearance Models, 3rd edition, John
+%   Wiley & Sons, 2013, pp. 287-302.
+%
+%   EXAMPLE
+%
+%   Convert an XYZ color to CIECAM02. (From Fairchild, Table 16.4,
+%   Case 1, p. 299)
+%
+%       XYZ = [0.1901 0.2000 0.2178];
+%       XYZ_w = [0.9505 1.0000 1.0888];
+%       L_A = 318.31;
+%       Y_b = 0.20;
+%       surround = 'average';
+%       out = xyz2ciecam02(XYZ,XYZ_w,L_A,Y_b,surround)
+
+%   Copyright MathWorks 2016-2018
 
 % Image Processing Toolbox uses tristimulus values in the range
 % [0,1]. The CIECAM02 conversion assumes tristimulus values in the
@@ -12,9 +50,9 @@ Y_b = 100 * Y_b;
 
 % Equation (16.1), Fairchild, p. 290.
 M_cat02 = [ ...
-   0.7328  0.4296 -0.1624
+    0.7328  0.4296 -0.1624
    -0.7036  1.6975  0.0061
-   0.0030  0.0136  0.9834];
+    0.0030  0.0136  0.9834];
 
 % Equation (16.2), Fairchild, p. 290.
 RGB = XYZ * M_cat02';
