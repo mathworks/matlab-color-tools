@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration build-checksum="1004508102" file="/Users/eddins/OneDrive - MathWorks/GitRepos/color-toolbox/Color Toolbox.prj" location="/Users/eddins/OneDrive - MathWorks/GitRepos/color-toolbox" name="Color Toolbox" target="target.toolbox" target-name="Package Toolbox">
+  <configuration build-checksum="1004508102" file="/Users/steve/External Repos/matlab-color-toolbox/Color Toolbox.prj" location="/Users/steve/External Repos/matlab-color-toolbox" name="Color Toolbox" target="target.toolbox" target-name="Package Toolbox">
     <param.appname>Color Toolbox</param.appname>
     <param.authnamewatermark>Steve Eddins</param.authnamewatermark>
     <param.email>Steve.Eddins@mathworks.com</param.email>
@@ -45,7 +45,7 @@
       <item>/</item>
     </param.matlabpath.excludes>
     <param.javaclasspath.excludes />
-    <param.exported.on.package>true</param.exported.on.package>
+    <param.exported.on.package>false</param.exported.on.package>
     <param.release.start />
     <param.release.end />
     <param.release.current.only>false</param.release.current.only>
@@ -54,6 +54,8 @@
     <param.compatiblity.linux>true</param.compatiblity.linux>
     <param.compatiblity.matlabonline>true</param.compatiblity.matlabonline>
     <unset>
+      <param.authnamewatermark />
+      <param.company />
       <param.output />
       <param.products.name />
       <param.products.id />
@@ -65,6 +67,7 @@
       <param.apps />
       <param.registered.apps />
       <param.javaclasspath.excludes />
+      <param.exported.on.package />
       <param.release.start />
       <param.release.end />
       <param.release.current.only />
@@ -84,7 +87,7 @@
     <fileset.depfun.excluded />
     <fileset.package />
     <build-deliverables>
-      <file location="/Users/eddins/OneDrive - MathWorks/GitRepos/color-toolbox" name="Color Toolbox.mltbx" optional="false">/Users/eddins/OneDrive - MathWorks/GitRepos/color-toolbox/Color Toolbox.mltbx</file>
+      <file location="/Users/steve/External Repos/matlab-color-toolbox" name="Color Toolbox.mltbx" optional="false">/Users/steve/External Repos/matlab-color-toolbox/Color Toolbox.mltbx</file>
     </build-deliverables>
     <workflow />
     <matlab>
