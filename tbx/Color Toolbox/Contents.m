@@ -1,10 +1,7 @@
 % Color Toolbox
 % Version 0.1 (R2018a) 19-Mar-2018
 %
-% Classes
-%   myClass  - Perform simple arithmetics.
-%
 % Functions
-%   myfunc   - Multiply input by 2.
+%   xyz2ciecam02   - Convert XYZ color values to CIECAM02.
 %
 %  Copyright 2017-2018 The MathWorks, Inc.
