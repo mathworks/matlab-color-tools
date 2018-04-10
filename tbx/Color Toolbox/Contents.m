@@ -1,5 +1,5 @@
 % Color Toolbox
-% Version 0.1 (R2018a) 19-Mar-2018
+% Version 0.2 (R2018a) 10-Apr-2018
 %
 % Functions
 %   ciecam022xyz   - Convert CIECAM02 color appearance values to XYZ.

@@ -1,13 +1,13 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration build-checksum="1004508102" file="/Users/steve/External Repos/matlab-color-toolbox/Color Toolbox.prj" location="/Users/steve/External Repos/matlab-color-toolbox" name="Color Toolbox" target="target.toolbox" target-name="Package Toolbox">
+  <configuration build-checksum="1004508102" file="/Users/eddins/OneDrive - MathWorks/GitRepos/matlab-color-toolbox/Color Toolbox.prj" location="/Users/eddins/OneDrive - MathWorks/GitRepos/matlab-color-toolbox" name="Color Toolbox" target="target.toolbox" target-name="Package Toolbox">
     <param.appname>Color Toolbox</param.appname>
-    <param.authnamewatermark>Steve Eddins</param.authnamewatermark>
+    <param.authnamewatermark />
     <param.email>Steve.Eddins@mathworks.com</param.email>
-    <param.company>MathWorks</param.company>
+    <param.company />
     <param.summary>Color computations for use with MATLAB and Image Processing Toolbox</param.summary>
     <param.description>The Color Toolbox is an experimental collection of color science functions for use with MATLAB and Image Processing Toolbox. It is not yet in a stable state.</param.description>
     <param.screenshot>${PROJECT_ROOT}/misc/color-toolbox-image.png</param.screenshot>
-    <param.version>0.1</param.version>
+    <param.version>0.2</param.version>
     <param.output>${PROJECT_ROOT}/Color Toolbox.mltbx</param.output>
     <param.products.name />
     <param.products.id />
@@ -87,7 +87,7 @@
     <fileset.depfun.excluded />
     <fileset.package />
     <build-deliverables>
-      <file location="/Users/steve/External Repos/matlab-color-toolbox" name="Color Toolbox.mltbx" optional="false">/Users/steve/External Repos/matlab-color-toolbox/Color Toolbox.mltbx</file>
+      <file location="/Users/eddins/OneDrive - MathWorks/GitRepos/matlab-color-toolbox" name="Color Toolbox.mltbx" optional="false">/Users/eddins/OneDrive - MathWorks/GitRepos/matlab-color-toolbox/Color Toolbox.mltbx</file>
     </build-deliverables>
     <workflow />
     <matlab>
