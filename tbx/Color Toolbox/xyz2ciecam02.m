@@ -35,6 +35,8 @@ function out = xyz2ciecam02(XYZ,XYZ_w,L_A,Y_b,surround)
 %       Y_b = 0.20;
 %       surround = 'average';
 %       out = xyz2ciecam02(XYZ,XYZ_w,L_A,Y_b,surround)
+%
+%   See also xyz2ciecam02.
 
 %   Copyright MathWorks 2016-2018
 
