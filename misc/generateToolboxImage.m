@@ -1,4 +1,8 @@
 function generateToolboxImage
+%
+
+% Steve Eddins
+% Copyright 2018-2019, The MathWorks, Inc.
 
 [x,y] = ndgrid(-10:.02:10);
 theta = atan2(y,x);
