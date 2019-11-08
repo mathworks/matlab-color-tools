@@ -1,6 +1,0 @@
-function checkMinNumBytes(bytes, min_num_elements)
-if numel(bytes) < min_num_elements
-    throwAsCaller(MException('color:icc:TooFewBytes', ...
-        'Input has too few elements (%d). Number of elements required: %d', ...
-        numel(bytes), min_num_elements));
-end
