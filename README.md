@@ -1,46 +1,16 @@
-# MATLAB Color Tools
+# MATLAB<sup>&reg;</sup> Color Tools
 
 MATLAB Color Tools is an experimental collection of MATLAB functions related
 to color science computation, color scales, visualization, and ICC color profiles.
 It is meant to supplement the capabilities of [MATLAB](https://www.mathworks.com/products/matlab.html)
-and the [Image Processing Toolbox](https://www.mathworks.com/products/image.html).
+and [Image Processing Toolbox](https://www.mathworks.com/products/image.html)<sup>&trade;</sup>.
 
-Color Tools is in early development, and it is not in a stable state. The functions
-and their interfaces are regularly changing.
+Many of the functions were written to accompany the book [_Digital Image Processing Using MATLAB_](http://imageprocessingplace.com), by Rafael C. Gonzalez, Richard E. Woods, and Steven L. Eddins, Gatesmark Press, 3rd edition, 2020.
 
 ## Prerequisites
 
 You need a recent version of [MATLAB](https://www.mathworks.com/products/matlab.html)
-and the [Image Processing Toolbox](https://www.mathworks.com/products/image.html).
-
-## Getting Started
-
-To use Color Tools, get the latest experimental release from the [releases
-page](https://github.com/mathworks/matlab-color-tools/releases). Unzip the file
-and double-click on the .mltbx file to launch the MATLAB add-on installer.
-
-Convert an XYZ color to CIECAM02 to verify your installation.
-
-```matlab
-XYZ = [0.1901 0.2000 0.2178];
-XYZ_w = [0.9505 1.0000 1.0888];
-L_A = 318.31;
-Y_b = 0.20;
-surround = 'average';
-out = xyz2ciecam02(XYZ,XYZ_w,L_A,Y_b,surround);
-```
-
-## Developer Workflow
-
-Clone the repository. In MATLAB, cd into the top-level folder of your clone.
-The following commands are available in the top-level folder.
-
-To run the tests, cd into the `tests` folder and type `runtests`.
-
-## Built With
-
-* [MATLAB](https://www.mathworks.com/products/matlab.html)
-* [Image Processing Toolbox](https://www.mathworks.com/products/image.html)
+and [Image Processing Toolbox](https://www.mathworks.com/products/image.html). A detailed explanation of the theory and usage of many of the functions is in [_Digital Image Processing Using MATLAB_](http://imageprocessingplace.com), 3rd edition.
 
 ## Contributing
 
