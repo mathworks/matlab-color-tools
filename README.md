@@ -5,12 +5,12 @@ to color science computation, color scales, visualization, and ICC color profile
 It is meant to supplement the capabilities of [MATLAB](https://www.mathworks.com/products/matlab.html)
 and [Image Processing Toolbox](https://www.mathworks.com/products/image.html)<sup>&trade;</sup>.
 
-Some of the functions appear in the book [_Digital Image Processing Using MATLAB_](http://imageprocessingplace.com), 3rd edition, by Rafael C. Gonzalez, Richard E. Woods, and Steven L. Eddins, Gatesmark, 2020.
+Some of the functions, along with explanations of the relevant theory, appear in the book [_Digital Image Processing Using MATLAB_](http://imageprocessingplace.com), 3rd edition, by Rafael C. Gonzalez, Richard E. Woods, and Steven L. Eddins, Gatesmark, 2020.
 
 ## Prerequisites
 
 You need a recent version of [MATLAB](https://www.mathworks.com/products/matlab.html)
-and [Image Processing Toolbox](https://www.mathworks.com/products/image.html). A detailed explanation of the theory and usage of many of the functions is in [_Digital Image Processing Using MATLAB_](http://imageprocessingplace.com), 3rd edition.
+and [Image Processing Toolbox](https://www.mathworks.com/products/image.html).
 
 ## Contributing
 
