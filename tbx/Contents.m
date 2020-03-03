@@ -1,5 +1,5 @@
 % MATLAB(R) Color Tools
-% Version 1.1 (R2019b) 03-Mar-2020
+% Version 2.1 (R2019b) 03-Mar-2020
 %
 % Functions
 %   chromaticityDiagram    - Plot chromaticity diagram.
