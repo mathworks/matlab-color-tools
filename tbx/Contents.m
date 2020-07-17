@@ -1,5 +1,5 @@
 % MATLAB(R) Color Tools
-% Version 2.1 (R2019b) 03-Mar-2020
+% Version 2.1.1 (R2019b) 17-Jul-2020
 %
 % Functions
 %   chromaticityDiagram    - Plot chromaticity diagram.
@@ -16,5 +16,8 @@
 %   xyy2xyz                - Convert chromaticity coordinates to XYZ tristimulus values.
 %   xyz2ciecam02           - Convert XYZ color values to CIECAM02.
 %   xyz2xyy                - Convert XYZ tristimulus values to chromaticity coordinates.
+%
+% Other files
+%   CIE 1931 Standard Observer (1nm).xlsx
 %
 %  Copyright 2017-2020 The MathWorks, Inc.
