@@ -11,6 +11,8 @@ jobs:
 
       - name: Setup MATLAB
         uses: matlab-actions/setup-matlab@v0.1.2
+        env:
+          MATHWORKS_TOKEN: ${{ secrets.MATHWORKS_TOKEN }}
 
       - name: Run Tests
         uses: matlab-actions/run-tests@v0.1.0
