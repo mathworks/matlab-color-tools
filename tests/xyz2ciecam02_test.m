@@ -91,3 +91,7 @@ verifyEqual(testcase,out.s,60.22,'AbsTol',1e-2);
 verifyEqual(testcase,out.h,248.9,'AbsTol',1e-1);
 verifyEqual(testcase,out.H,305.8,'AbsTol',4e-1);
 end
+
+function testFailure(testCase)
+testCase.verifyFail("Deliberate failure for demo");
+end
