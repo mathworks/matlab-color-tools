@@ -1,8 +1,8 @@
-[![View MATLAB Color Tools on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/64161-matlab-color-tools)
+[![View Color Tools for MATLAB on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/64161-matlab-color-tools)
 
-# MATLAB<sup>&reg;</sup> Color Tools
+# Color Tools for MATLAB<sup>&reg;
 
-MATLAB Color Tools is an experimental collection of MATLAB functions related
+Color Tools for MATLAB is an experimental collection of MATLAB functions related
 to color science computation, color scales, visualization, and ICC color profiles.
 It is meant to supplement the capabilities of [MATLAB](https://www.mathworks.com/products/matlab.html)
 and [Image Processing Toolbox](https://www.mathworks.com/products/image.html)<sup>&trade;</sup>.
