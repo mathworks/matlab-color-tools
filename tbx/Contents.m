@@ -1,5 +1,5 @@
-% MATLAB(R) Color Tools
-% Version 2.1.1 (R2019b) 17-Jul-2020
+% Color Tools for MATLAB
+% Version 2.1.2 (R2019b) 27-Jan-2023
 %
 % Functions
 %   chromaticityDiagram    - Plot chromaticity diagram.
@@ -20,4 +20,4 @@
 % Other files
 %   CIE 1931 Standard Observer (1nm).xlsx
 %
-%  Copyright 2017-2020 The MathWorks, Inc.
+%  Copyright 2017-2023 The MathWorks, Inc.
