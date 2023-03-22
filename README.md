@@ -1,4 +1,4 @@
-[![View Color Tools for MATLAB on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/64161-matlab-color-tools)
+[![View Color Tools for MATLAB on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/64161-color-tools-for-matlab)
 
 # Color Tools for MATLAB<sup>&reg;
 
